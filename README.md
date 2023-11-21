@@ -5,11 +5,11 @@
 
 변경 예시 ) 
 #기존 BrowserRouter의 방식
-
- - 기존 방식 code 
+<\br>
 ![image](https://user-images.githubusercontent.com/117058112/216617862-a25f143f-db6d-4ea2-96f4-30b17b64cdbf.png)
 
 #버전 6 방식 createBrowserRouter code
+<\br>
 ![image](https://user-images.githubusercontent.com/117058112/216618036-b630e2d3-96d8-4f30-b003-292002d16e6e.png)
 
 
