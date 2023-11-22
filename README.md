@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 # react-Router ver6 학습 code입니다
 
+=======
+# react-router-dom 6버전 
+>>>>>>> b2d72055f69aec1dd8d299a6990ae909d3ea4f30
 새롭게 변경된 router 버전 6은 5버전과 다른 점이 많이 생겼습니다.
 
 ### 참고 자료 : https://reactrouter.com/en/main
