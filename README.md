@@ -31,46 +31,7 @@
 -   기존 5버전과 달리 router를 array형식으로 표현할 수 있게 한다.
 -   기존 5버전에는 App을 연결시켜 진행하였지만 RouterProvider를 사용해서 router={router}를 넣어 연결시킨다.
 -   부모의 자식들을 render하기 원한다면 부모 component에 가서 outlet를 넣는다.
--   구조
-    const router = createBrowserRouter([
-    <br/>
-    {
-    <br/>
-    path: '/', (부모)
-    <br/>
-    element:<Root />
-    <br/>
-    children:[ (부모 home안에 있는 자식)
-    <br/>
-    {
-    <br/>
-    path: "" (아무것도 주지 않을 경우 "/"를 따라 가서 home이 된다.)
-    <br/>
-    element:<Home />
-    <br/>
-    },
-    <br/>
-    {
-    <br/>
-    path: "about"
-    <br/>
-    element:<About />
-    <br/>
-    },
-    <br/>
-    {
-    <br/>
-    path: "detail"
-    <br/>
-    element:<Detail />
-    <br/>
-    }
-    <br/>
-    ]
-    <br/>
-    }
-    <br/>
-    ])
+-   구조참고 : Router.tsx component참고
 ### Route
 
 ### Route > errorElement
