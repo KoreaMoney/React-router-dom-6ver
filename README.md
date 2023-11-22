@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-# react-Router ver6 학습 code입니다
+# react-router-dom 6버전
 
-=======
-# react-router-dom 6버전 
->>>>>>> b2d72055f69aec1dd8d299a6990ae909d3ea4f30
 새롭게 변경된 router 버전 6은 5버전과 다른 점이 많이 생겼습니다.
 
 ### 참고 자료 : https://reactrouter.com/en/main
@@ -26,13 +22,13 @@
 
 ### BrowserRouter
 
--   <BrowserRouter>
-        <Routes>
-          <br/>
-            <Route path="경로" element={경로의 component} />
-          <br/>
-        </Routes>
-    </BrowserRouter>
+<BrowserRouter><br/>
+        <Routes><br/>
+          <br/><br/>
+            <Route path="경로" element={경로의 component} /><br/>
+          <br/><br/>
+        </Routes><br/>
+    </BrowserRouter><br/>
     형식으로 기존 5버전에서는 Routes대신 Switch가 사용되었다.
 
 ### createBrowserRouter
@@ -45,26 +41,44 @@
 -   부모의 자식들을 render하기 원한다면 부모 component에 가서 outlet를 넣는다.
 -   구조
     const router = createBrowserRouter([
+    <br/>
     {
-        path: '/', (부모)
-        element:<Root />
-        children:[ (부모 home안에 있는 자식)
-        {
-            path: "" (아무것도 주지 않을 경우 "/"를 따라 가서 home이 된다.)
-            element:<Home />
-        },
-        {
-            path: "about"
-            element:<About />
-        },
-        {
-            path: "detail"
-            element:<Detail />
-        }
-       ]
-     }
+    <br/>
+    path: '/', (부모)
+    <br/>
+    element:<Root />
+    <br/>
+    children:[ (부모 home안에 있는 자식)
+    <br/>
+    {
+    <br/>
+    path: "" (아무것도 주지 않을 경우 "/"를 따라 가서 home이 된다.)
+    <br/>
+    element:<Home />
+    <br/>
+    },
+    <br/>
+    {
+    <br/>
+    path: "about"
+    <br/>
+    element:<About />
+    <br/>
+    },
+    <br/>
+    {
+    <br/>
+    path: "detail"
+    <br/>
+    element:<Detail />
+    <br/>
+    }
+    <br/>
+    ]
+    <br/>
+    }
+    <br/>
     ])
-
 ### Route
 
 ### Route > errorElement
@@ -76,3 +90,4 @@
 ### useOutletContext
 
 ### useSearchParams
+
