@@ -23,6 +23,8 @@
 ### BrowserRouter
 
 -   형식으로 기존 5버전에서는 Routes대신 Switch가 사용되었다.
+    <br/>
+    <img src="https://ifh.cc/g/qonF0l.png" alt="사진">
 
 ### createBrowserRouter
 
