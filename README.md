@@ -21,18 +21,7 @@
 ## 버전 6 새로운 부분
 
 ### BrowserRouter
-- 구조
-- "BrowserRouter"
-<br/>
-<Routes>
-<br/>            
-<Route path="경로" element={경로의 component} />
-<br/>
-        </Routes>
-        <br/>
-        "BrowserRouter"
-    <br/>
-    형식으로 기존 5버전에서는 Routes대신 Switch가 사용되었다.
+-   형식으로 기존 5버전에서는 Routes대신 Switch가 사용되었다.
 
 ### createBrowserRouter
 
